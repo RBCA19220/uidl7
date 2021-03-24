@@ -101,7 +101,7 @@ public class FullAppdisplay {
 		textField = new JTextField();
 		textField.setEnabled(false);
 		textField.setEditable(false);
-		textField.setBounds(154, 33, 86, 20);
+		textField.setBounds(140, 33, 86, 20);
 		frame.getContentPane().add(textField);
 		textField.setColumns(10);
 		
@@ -115,14 +115,14 @@ public class FullAppdisplay {
 		textField_2 = new JTextField();
 		textField_2.setEnabled(false);
 		textField_2.setEditable(false);
-		textField_2.setBounds(179, 184, 86, 20);
+		textField_2.setBounds(179, 182, 86, 20);
 		frame.getContentPane().add(textField_2);
 		textField_2.setColumns(10);
 		
 		textField_3 = new JTextField();
 		textField_3.setEnabled(false);
 		textField_3.setEditable(false);
-		textField_3.setBounds(276, 33, 86, 20);
+		textField_3.setBounds(266, 33, 86, 20);
 		frame.getContentPane().add(textField_3);
 		textField_3.setColumns(10);
 	}
